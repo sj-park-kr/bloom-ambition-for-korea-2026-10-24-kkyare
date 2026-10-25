@@ -1,4 +1,4 @@
-# 피치 덱 2장 생성기. 실행: python make_deck.py <출력.pptx> <화면 캡처 폴더(insurance.png, timemachine.png)>  (python-pptx 1.0.2)
+# 피치 덱 4장 생성기. 실행: python make_deck.py <출력.pptx> <화면 캡처 폴더(insurance.png, timemachine.png)>  (python-pptx 1.0.2)
 import sys
 from pptx import Presentation
 from pptx.util import Inches, Pt
@@ -75,5 +75,51 @@ text(s, x + 0.2, 5.5, 3.7, 1.0, ['해자: 농장 연결로 쌓이는 필지 단�
 
 rule(s, 0.6, 6.95, 12.1, RULE, 1)
 text(s, 0.6, 7.0, 12.1, 0.4, '검증된 날씨-생산량 데이터는 기업의 자산이 되어 작물 생산량을 높이고 보험사의 지출을 줄인다.   (데모 수치는 임의의 아이오와 농장 목업, 비용·가격은 가정)', size=10, color=INK2)
+
+# ---- 3장: 왜 우리인가 (경쟁사 대비) ----
+s = prs.slides.add_slide(prs.slide_layouts[6]); bg(s)
+text(s, 0.6, 0.35, 8, 0.4, 'Weather Decision Gym · 꺄레', size=12, color=INK2, bold=True)
+rule(s, 0.6, 0.8, 12.1)
+text(s, 0.6, 0.95, 12.1, 1.2, ['예보는 이미 무료가 되고 있다.', '우리는 예보가 아니라 "필지별로 맞았는지"의 기록을 판다.'], size=28, bold=True, spacing=1.05)
+
+rows = [
+    ('', '파는 것', '단위', '시즌이 지나면'),
+    ('DTN · Tomorrow.io', '더 정확한 예보 (API, 알림)', '격자·지역', '같은 정확도. 오픈 모델(NVIDIA Earth-2, WeatherNext)과 경쟁'),
+    ('Climate FieldView', '농장 관리 플랫폼, 날씨는 부속 기능', '농장', '기계 데이터는 쌓이나 날씨-수확 검증 없음'),
+    ('RL 환경 회사', '랩에 파는 운영 시뮬레이션 환경', '과제', '날씨 실측으로 채점하는 농업 과제는 없음'),
+    ('꺄레', '실측으로 채점된 농업 결정 과제 + 필지 수확 기록', '필지·과제', '실제 수확으로 다시 학습, 오차가 줄어듦'),
+]
+for i, r in enumerate(rows):
+    y = 2.45 + i * 0.62
+    c = CANOPY if i == len(rows) - 1 else (INK2 if i == 0 else INK)
+    for x, w, v in zip((0.6, 3.1, 7.2, 8.7), (2.4, 4.0, 1.4, 4.0), r):
+        text(s, x, y, w, 0.6, v, size=11 if i == 0 else 13, color=c, bold=(i == 0 or i == len(rows) - 1 or x == 0.6))
+    rule(s, 0.6, y + 0.58, 12.1, RULE, 1)
+
+figure(s, 0.6, 5.7, '25–31%', '공개 예보 4개의 살포 판단이 실측과 어긋난 비율 (실데이터, 2026 여름 디모인 1,012건)', LOAM, 6.3)
+text(s, 7.2, 5.75, 5.5, 1.0, ['공개 날씨·보험 자료는 누구나 쓴다.', '연결 농장의 필지별 수확 기록은 우리만 갖고, 해마다 쌓인다.'], size=13, bold=True)
+text(s, 0.6, 6.95, 12.1, 0.4, '출처: docs/research_sungho/01_competitors.md, 10_similar_companies.md (RL 환경 회사 예: Maingen. 공개 자료, 일부 2차 출처). 백테스트: scripts/backtest-spray-windows.ts (Open-Meteo Single Runs, IEM ASOS DSM).', size=9, color=INK2)
+
+# ---- 4장: 첫 고객과 확장 순서 (GTM) ----
+s = prs.slides.add_slide(prs.slide_layouts[6]); bg(s)
+text(s, 0.6, 0.35, 8, 0.4, 'Weather Decision Gym · 꺄레', size=12, color=INK2, bold=True)
+rule(s, 0.6, 0.8, 12.1)
+text(s, 0.6, 0.95, 12.1, 0.8, '지금 팔 수 있는 것부터 팔고, 농장 기록으로 해자를 쌓는다', size=28, bold=True)
+
+steps = [
+    (FROST, '1단계 · 지금', 'RL 평가·데이터 회사', ['공개 예보와 실측으로 만드는 채점 과제와 비공개 평가셋', '가격: 과제당 $200-2,000 시장 단가 (Epoch AI)', '근거: 공개 예보 4개가 살포 판단 25–31%를 틀림 (실데이터)']),
+    (CORN, '2단계 · 0~6개월', '아이오와 옥수수·콩 대형 농장 10곳 (무료)', ['수확 기록을 연결하면 필지별 예측을 무료로 준다', '경로: 보험 가입 생산 기록(APH), Deere·FieldView 연결 (농가 동의)', '목표: 필지 500곳 × 과거 3시즌 수확 기록']),
+    (LOAM, '3단계 · 6~12개월', '작물보험사 1곳 파일럿', ['그 필지 기록으로 청구 검증, 요율 범위 제공', '가격: 청구 건당 또는 acre당 [가정]', '근거: 보험금의 73%가 날씨 원인']),
+]
+for i, (c, when, who, lines) in enumerate(steps):
+    x = 0.6 + i * 4.1
+    bar(s, x, 1.95, 3.6, c)
+    text(s, x + 0.25, 1.9, 3.7, 0.4, when, size=12, color=INK2, bold=True)
+    text(s, x + 0.25, 2.3, 3.7, 0.8, who, size=18, bold=True)
+    text(s, x + 0.25, 3.2, 3.7, 2.3, lines, size=12, spacing=1.3)
+
+rule(s, 0.6, 5.85, 12.1, RULE, 1)
+text(s, 0.6, 5.95, 12.1, 0.8, 'RL 회사가 지금 매출을 내고, 농장은 무료로 예측을 얻는 대신 기록을 낸다. 농장이 늘수록 예측과 과제가 좋아지는 순환이다.', size=16, bold=True)
+text(s, 0.6, 6.95, 12.1, 0.4, '2·3단계 숫자와 가격은 가정, APH 공유 조건과 API 약관은 확인 필요. 과제 단가: Epoch AI "An FAQ on RL environments". 보험금 비중: EWG 작물보험 분석(USDA RMA 자료).', size=9, color=INK2)
 
 prs.save(out); print('saved', out)

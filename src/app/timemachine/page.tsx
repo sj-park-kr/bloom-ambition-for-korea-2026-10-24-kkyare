@@ -148,6 +148,7 @@ export default function TimeMachine() {
         </>
       )}
       {!data && !error && <p className="text-sm text-[var(--ink-2)]">재생 데이터를 불러오는 중입니다.</p>}
+      <p className="text-xs text-[var(--ink-2)]">데이터 출처: 목업. 원천 예보는 Open-Meteo, 실측은 Iowa Environmental Mesonet ASOS 형식을 따랐습니다.</p>
     </main>
   )
 }

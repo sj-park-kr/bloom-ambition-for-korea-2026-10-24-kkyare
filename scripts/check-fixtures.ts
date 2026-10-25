@@ -62,7 +62,9 @@ for (const file of files) {
     fail(rel, `invalid JSON (${(e as Error).message})`)
     continue
   }
-  if (data?.demo !== true) fail(rel, 'top-level demo !== true')
+  // real-* 시나리오(scripts/build-real-scenario.ts)는 실제 예보·관측이라 demo false + 출처 필수. 저장 답(answer.json)은 그대로 demo true
+  const real = /(^|[\\/])real-/.test(rel) && !rel.endsWith('answer.json')
+  if (real ? data?.demo !== false || !data?.source : data?.demo !== true) fail(rel, real ? 'real-* fixture needs demo === false and source' : 'top-level demo !== true')
   walk(rel, data, '$')
 
   const base = file.split('/').pop()

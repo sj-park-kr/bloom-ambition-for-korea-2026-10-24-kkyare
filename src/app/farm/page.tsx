@@ -73,6 +73,7 @@ export default function FarmConnectionPage() {
           </p>
         </Section>
       </div>
+      <p className="text-xs text-[var(--ink-2)]">데이터 출처: 목업. 연결 농장 수와 검증 청구 수에 따른 오차·요율 폭은 시뮬레이션이며, 형식은 USDA RMA 청구 자료와 NOAA CPC 관측을 따랐습니다.</p>
     </main>
   )
 }

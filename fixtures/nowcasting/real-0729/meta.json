@@ -1,0 +1,137 @@
+{
+  "demo": false,
+  "date": "2026-07-29",
+  "source": {
+    "forecast": "Open-Meteo Single Runs API, https://open-meteo.com (CC BY 4.0)",
+    "observation": "Iowa Environmental Mesonet ASOS DSM 정시 관측, https://mesonet.agron.iastate.edu"
+  },
+  "fetchedAt": "2026-10-25T02:27:08Z",
+  "story": "실제 관측(IEM ASOS DSM) 기준, 2026-07-29 살포 시작 시각 11개(12~22Z) 중 6개가 살포 조건 위반이었다. 당일 00Z 예보 판정이 실측과 다른 시각: HRRR 6개, NBM 3개, GFS 6개, ECMWF IFS 5개.",
+  "expected": {
+    "windowHours": 4,
+    "defaultT0": "2026-07-29T16:00:00Z",
+    "windows": [
+      {
+        "start": "2026-07-29T12:00:00Z",
+        "violation": false,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T13:00:00Z",
+        "violation": false,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T14:00:00Z",
+        "violation": false,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T15:00:00Z",
+        "violation": false,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T16:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T17:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": false,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T18:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": true,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T19:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": true,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T20:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": true,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T21:00:00Z",
+        "violation": true,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": true,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      },
+      {
+        "start": "2026-07-29T22:00:00Z",
+        "violation": false,
+        "basis": "observation",
+        "forecast": {
+          "ncep_hrrr_conus": false,
+          "ncep_nbm_conus": true,
+          "gfs_seamless": false,
+          "ecmwf_ifs025": true
+        }
+      }
+    ]
+  }
+}

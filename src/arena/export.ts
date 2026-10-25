@@ -110,7 +110,9 @@ export function dataCard(pack: TaskPack, baseline: Cell[] = []): string {
   const lines = [
     `# ${pack.id}`,
     '',
-    pack.meta.demo ? '> **DEMO DATA** — 실제 데이터 형식에 맞춘 목업 시나리오입니다.' : '',
+    pack.meta.demo
+      ? '> **DEMO DATA** — 실제 데이터 형식에 맞춘 목업 시나리오입니다.'
+      : '> **REAL DATA** — Open-Meteo가 실제 발행한 예보 run과 IEM ASOS 실측으로 만든 과제입니다. Open-Meteo 무료 API는 비상업 용도라 상업 납품에는 유료 구독이 필요합니다.',
     '',
     '## 개요',
     `- 과제 수: ${pack.meta.count}`,

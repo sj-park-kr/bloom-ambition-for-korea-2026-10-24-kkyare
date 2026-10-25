@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>Weather Decision Gym · Pitch v3 (2 slides)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+ /* Ambition for Korea GUIDE.md: 1920x1080, 2장, 하단 로고 띠 90%, 팀 이름 왼쪽 위, 본문 28px 이상
+    v3: 심사평 반영 (한 줄 소개 통일, 데이터 출처·확보 경로, 실데이터 백테스트, 고객 순서 RL 회사 → 보험사, 3D 지도) */
+ @page{size:1920px 1080px;margin:0}
+ *{margin:0;padding:0;box-sizing:border-box;word-break:keep-all}
+ :root{--paper:#e9ecE6;--paper2:#f4f6f2;--ink:#1c2620;--ink2:#4a5650;--rule:#c5ccc3;--canopy:#4e7a3a;--corn:#c99a1e;--loam:#7a4a2a;--frost:#3b6a94}
+ body{font-family:'Pretendard Variable','Pretendard',-apple-system,sans-serif;background:#777}
+ .s{width:1920px;height:1080px;position:relative;overflow:hidden;background:var(--paper);color:var(--ink);page-break-after:always;margin:0 auto 40px}
+ @media print{body{background:none}.s{margin:0}}
+ .team{position:absolute;top:52px;left:96px;font-size:28px;font-weight:700;color:var(--ink2)}
+ .topic{position:absolute;top:52px;right:96px;font-size:28px;font-weight:600;color:var(--ink2)}
+ .topic b{color:var(--ink)}
+ .body{position:absolute;left:96px;right:96px;top:112px;bottom:150px;display:flex;flex-direction:column;gap:16px}
+ h1{font-size:62px;font-weight:800;line-height:1;letter-spacing:-.02em}
+ .one{font-size:34px;font-weight:600;line-height:1.3;max-width:1700px}
+ .one b{color:var(--frost)}
+ .flow{display:grid;grid-template-columns:1fr 56px 1fr 56px 1.08fr;align-items:stretch;margin-top:4px}
+ .colh{font-size:28px;font-weight:700;color:var(--ink2);margin-bottom:10px}
+ .src{background:var(--paper2);border-left:8px solid var(--rule);padding:12px 18px;margin-bottom:12px}
+ .src.ours{border-color:var(--canopy)}
+ .src h3{font-size:30px;font-weight:700;line-height:1.2}
+ .src p{font-size:28px;line-height:1.32}
+ .src .dim{color:var(--ink2)}
+ .arrow{display:flex;align-items:center;justify-content:center}
+ .step{background:var(--ink);color:var(--paper2);padding:12px 18px;margin-bottom:10px}
+ .step b{font-size:30px;display:block;line-height:1.2}
+ .step span{font-size:28px;line-height:1.3;color:#d9dfd6}
+ .buyer{border-top:6px solid var(--frost);padding:8px 0 4px;margin-bottom:8px}
+ .buyer.ins{border-color:var(--corn)} .buyer.farm{border-color:var(--canopy)}
+ .buyer h3{font-size:30px;font-weight:700;line-height:1.2}
+ .buyer p{font-size:28px;line-height:1.3}
+ .strip{display:grid;grid-template-columns:1fr 1.25fr;gap:48px;border-top:2px solid var(--rule);padding-top:12px}
+ .strip p{font-size:28px;line-height:1.36}
+ .strip b.n{color:var(--loam);font-size:34px}
+ .shots{display:grid;grid-template-columns:1fr 1fr;gap:36px;height:420px}
+ .shot{position:relative;border:2px solid var(--rule);background:var(--paper2);overflow:hidden}
+ .shot img{width:100%;height:100%;object-fit:cover;object-position:top left;display:block}
+ .row2{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+ .cap{font-size:28px;color:var(--ink2);line-height:1.3}
+ .cols{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+ .col{border-top:6px solid var(--ink);padding-top:16px}
+ .col h2{font-size:30px;font-weight:700;margin-bottom:10px}
+ .col p{font-size:30px;line-height:1.38}
+ .k{font-weight:800;color:var(--loam)}
+ .note{font-size:28px;color:var(--ink2);margin-top:8px}
+ .foot{position:absolute;left:5%;right:5%;bottom:32px}
+ .foot img{width:100%;display:block}
+</style></head>
+<body>
+
+<section class="s">
+  <div class="team">Team 꺄레 (kkyare)</div>
+  <div class="topic">주제 <b>AttentionX · 미국 RL 평가·데이터 회사가 돈을 내는 서비스</b></div>
+  <div class="body">
+    <h1>Weather Decision Gym</h1>
+    <p class="one">실제 날씨로 자동 채점되는 농업 의사결정 데이터. 농장은 수확 기록을 내고 예측을 무료로 받고, 돈은 <b>RL 평가·데이터 회사</b>와 보험사가 냅니다.</p>
+    <div class="flow">
+      <div>
+        <div class="colh">데이터는 어디서 오나</div>
+        <div class="src">
+          <h3>공개 데이터 <span class="dim">· 누구나</span></h3>
+          <p>NOAA·ECMWF 예보, IEM 실측, USDA 보험·수확 통계. 해자가 아닙니다.</p>
+        </div>
+        <div class="src ours">
+          <h3>우리만 갖는 데이터</h3>
+          <p>농장 동의로 받는 필지별 수확 기록(보험 가입 생산 기록 APH, Deere·FieldView 연결)과 쌓이는 채점 기록</p>
+        </div>
+      </div>
+      <div class="arrow"><svg width="56" height="40" viewBox="0 0 64 40" aria-hidden="true"><path d="M4 20 H50" stroke="#1c2620" stroke-width="5" fill="none"/><path d="M44 8 L60 20 L44 32 Z" fill="#1c2620"/></svg></div>
+      <div>
+        <div class="colh">우리 엔진</div>
+        <div class="step"><b>1. 예보만 보고 결정</b><span>과제 시점 이후 정보는 차단</span></div>
+        <div class="step"><b>2. 다음 날 실측으로 채점</b><span>사람 라벨 없이 확률 점수·손실액</span></div>
+        <div class="step"><b>3. 실제 수확으로 재학습</b><span>필지 예측 오차 6.2 → 2.5 %p (데모)</span></div>
+      </div>
+      <div class="arrow"><svg width="56" height="40" viewBox="0 0 64 40" aria-hidden="true"><path d="M4 20 H50" stroke="#1c2620" stroke-width="5" fill="none"/><path d="M44 8 L60 20 L44 32 Z" fill="#1c2620"/></svg></div>
+      <div>
+        <div class="colh">누가 돈을 내나 · 순서</div>
+        <div class="buyer">
+          <h3>① 지금 · RL 평가·데이터 회사</h3>
+          <p>공개 예보와 실측만으로 만드는 채점 과제·비공개 평가셋 (과제당 시장가 $200–2,000)</p>
+        </div>
+        <div class="buyer ins">
+          <h3>② 작물보험사 1곳 파일럿</h3>
+          <p>청구 검증·요율 범위, 대신 APH·청구 기록 연결</p>
+        </div>
+        <div class="buyer farm">
+          <h3>③ 농장은 무료</h3>
+          <p>수확 기록을 내면 필지별 예측</p>
+        </div>
+      </div>
+    </div>
+    <div class="strip">
+      <p><b>문제</b> · 미국 작물보험 지급액의 <b class="n">73%</b>가 날씨 때문입니다($118.7B, 2001–2022).</p>
+      <p><b>왜 지금</b> · 공개 예보 4개가 2026년 여름 디모인 살포 판단 1,012건 중 <b class="n">25–31%</b>를 실측과 다르게 판정했습니다(실데이터).</p>
+    </div>
+  </div>
+  <div class="foot"><img src="footer-for-light-slides.png" alt=""></div>
+</section>
+
+<section class="s">
+  <div class="team">Team 꺄레 (kkyare)</div>
+  <div class="topic"><b>오늘 만든 것</b> · weather-decision-gym.vercel.app</div>
+  <div class="body" style="top:118px;gap:14px">
+    <div class="shots">
+      <div class="shot"><img src="shot-map-3d.png" alt="3D farm map: Sentinel-2 satellite view with 48 Iowa fields extruded by forecast yield, and a per-field yield panel"></div>
+      <div class="shot"><img src="shot-live-real.png" alt="Real-data scoring replay for 2026-07-29 Des Moines: model forecasts, saved answer, observed gusts, automatic score"></div>
+    </div>
+    <div class="row2">
+      <p class="cap">3D 농장 지도: 필지 높이·색 = 올해 예상 생산량.</p>
+      <p class="cap">실데이터 채점: 2026-07-29 디모인. HRRR은 "살포 가능", 실측은 돌풍 17 mph로 위반.</p>
+    </div>
+    <div class="cols">
+      <div class="col">
+        <h2>왜 우리인가</h2>
+        <p>예보 회사(DTN·Tomorrow.io)는 예보를, RL 환경 회사는 날씨 채점이 없는 운영 환경을 팝니다. 우리는 <b>실측으로 채점된 농업 결정 기록</b>을 팝니다. 공개 예보는 결정 단위로 <span class="k">HRRR 31%</span>, <span class="k">ECMWF 25%</span> 틀립니다.</p>
+      </div>
+      <div class="col">
+        <h2>다음 단계</h2>
+        <p>보험사 1곳 파일럿(APH·청구 기록 연결), RL 회사 1곳에 실데이터 과제 샘플 납품, 예보는 상업 플랜 또는 NOAA 원본으로 전환.</p>
+        <p class="note">필지·수확·청구는 가상 데이터, 예보·실측 채점은 실데이터입니다.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><img src="footer-for-light-slides.png" alt=""></div>
+</section>
+
+</body></html>

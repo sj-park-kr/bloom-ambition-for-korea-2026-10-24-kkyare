@@ -1,6 +1,17 @@
 # fixtures
 
-> **모든 값은 목업(DEMO DATA)입니다.** 실제 관측·예보가 아니라 시나리오에 맞춰 만든 가짜 값이며, 모든 JSON 최상위에 `"demo": true`가 들어 있습니다.
+> **`nowcasting/real-*`을 뺀 모든 값은 목업(DEMO DATA)입니다.** 실제 관측·예보가 아니라 시나리오에 맞춰 만든 가짜 값이며, JSON 최상위에 `"demo": true`가 들어 있습니다.
+
+## 실데이터 시나리오 `nowcasting/real-0729`
+
+2026-07-29 디모인. `npx -y tsx scripts/build-real-scenario.ts [YYYY-MM-DD]`로 만듭니다.
+
+- `snapshot-source.json`: Open-Meteo Single Runs API에서 받은 실제 run. 모델 4개(HRRR, NBM, GFS, ECMWF IFS) × 발행 시각 2개(전날 12Z, 당일 00Z) × 48시간
+- `observation.json`: IEM ASOS DSM 정시 관측 72시간. :54 관측을 가까운 정시로 맞추고, 흔적 강수(T)는 0, 빠진 시각은 null
+- `meta.json`: 출처, 받은 시각, 12~22Z 시작 창마다 실측 판정과 모델별 예보 판정
+- `answer.json`: 재생용 저장 답. Claude 답이 아니라 공개 예보 4개 합의 기준선이라 `"demo": true`
+
+위 세 파일은 `"demo": false`와 `source`가 있어야 `check-fixtures.ts`를 통과합니다. 이날 HRRR은 12~22Z 내내 살포 가능으로 예보했지만 실측은 16~21Z 시작 창이 모두 위반이었습니다.
 
 `scripts/build-fixtures.ts`가 seed 42(mulberry32)로 만듭니다. 같은 코드를 다시 돌리면 같은 파일이 나옵니다.
 
