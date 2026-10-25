@@ -1,0 +1,3520 @@
+{
+  "demo": false,
+  "scenario": "real-0729",
+  "source": "Open-Meteo Single Runs API, https://open-meteo.com (CC BY 4.0)",
+  "fetchedAt": "2026-10-25T02:27:08Z",
+  "runs": [
+    {
+      "model": "ecmwf_ifs025",
+      "issuedAt": "2026-07-28T12:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-28T12:00:00Z",
+          "tempF": 75.9,
+          "dewF": 73.7,
+          "windMph": 2,
+          "gustMph": null,
+          "windDirDeg": 297,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-28T13:00:00Z",
+          "tempF": 76.9,
+          "dewF": 73.7,
+          "windMph": 1.7,
+          "gustMph": null,
+          "windDirDeg": 337,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T14:00:00Z",
+          "tempF": 78.3,
+          "dewF": 73.5,
+          "windMph": 2.9,
+          "gustMph": null,
+          "windDirDeg": 23,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T15:00:00Z",
+          "tempF": 80.1,
+          "dewF": 73.4,
+          "windMph": 4,
+          "gustMph": 10.1,
+          "windDirDeg": 38,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T16:00:00Z",
+          "tempF": 82.7,
+          "dewF": 73.9,
+          "windMph": 4,
+          "gustMph": 10.5,
+          "windDirDeg": 52,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T17:00:00Z",
+          "tempF": 85.5,
+          "dewF": 74.1,
+          "windMph": 3.6,
+          "gustMph": 11.4,
+          "windDirDeg": 68,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T18:00:00Z",
+          "tempF": 87.5,
+          "dewF": 74.3,
+          "windMph": 3.9,
+          "gustMph": 12.3,
+          "windDirDeg": 77,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T19:00:00Z",
+          "tempF": 88.2,
+          "dewF": 74.5,
+          "windMph": 4.9,
+          "gustMph": 13.6,
+          "windDirDeg": 66,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T20:00:00Z",
+          "tempF": 88.2,
+          "dewF": 74.5,
+          "windMph": 6.3,
+          "gustMph": 15.2,
+          "windDirDeg": 55,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T21:00:00Z",
+          "tempF": 87.8,
+          "dewF": 74.6,
+          "windMph": 7.3,
+          "gustMph": 16.1,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T22:00:00Z",
+          "tempF": 87.2,
+          "dewF": 74.4,
+          "windMph": 7.2,
+          "gustMph": 15.7,
+          "windDirDeg": 54,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T23:00:00Z",
+          "tempF": 86.3,
+          "dewF": 74,
+          "windMph": 6.5,
+          "gustMph": 14.5,
+          "windDirDeg": 59,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 84.9,
+          "dewF": 73.6,
+          "windMph": 5.8,
+          "gustMph": 13.2,
+          "windDirDeg": 67,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 82.9,
+          "dewF": 73.8,
+          "windMph": 4.9,
+          "gustMph": 11.4,
+          "windDirDeg": 74,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 80.6,
+          "dewF": 74.2,
+          "windMph": 3.8,
+          "gustMph": 9.4,
+          "windDirDeg": 87,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 78.5,
+          "dewF": 74,
+          "windMph": 3.2,
+          "gustMph": 7.6,
+          "windDirDeg": 98,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 77,
+          "dewF": 73.5,
+          "windMph": 2.9,
+          "gustMph": 6.3,
+          "windDirDeg": 99,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 75.7,
+          "dewF": 72.9,
+          "windMph": 3.1,
+          "gustMph": 5.4,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 74.7,
+          "dewF": 72.6,
+          "windMph": 3.1,
+          "gustMph": 4.7,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 74,
+          "dewF": 72.2,
+          "windMph": 3.1,
+          "gustMph": 4.7,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 73.7,
+          "dewF": 72.1,
+          "windMph": 3,
+          "gustMph": 5.1,
+          "windDirDeg": 107,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 73.4,
+          "dewF": 71.9,
+          "windMph": 3.2,
+          "gustMph": 5.6,
+          "windDirDeg": 115,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 72.9,
+          "dewF": 71.4,
+          "windMph": 3.7,
+          "gustMph": 6,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 72.6,
+          "dewF": 71.1,
+          "windMph": 4.2,
+          "gustMph": 6.3,
+          "windDirDeg": 126,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 73.3,
+          "dewF": 70.8,
+          "windMph": 4.6,
+          "gustMph": 7.2,
+          "windDirDeg": 133,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 75.8,
+          "dewF": 71,
+          "windMph": 4.8,
+          "gustMph": 8.7,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 79.4,
+          "dewF": 70.8,
+          "windMph": 4.8,
+          "gustMph": 10.5,
+          "windDirDeg": 152,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 82.7,
+          "dewF": 70.6,
+          "windMph": 4.9,
+          "gustMph": 12.1,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 85.2,
+          "dewF": 70.2,
+          "windMph": 5,
+          "gustMph": 13,
+          "windDirDeg": 148,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 87.3,
+          "dewF": 69.2,
+          "windMph": 5.2,
+          "gustMph": 13.6,
+          "windDirDeg": 137,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 89.1,
+          "dewF": 68.7,
+          "windMph": 5.5,
+          "gustMph": 14.1,
+          "windDirDeg": 125,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 90.6,
+          "dewF": 68.2,
+          "windMph": 5.7,
+          "gustMph": 14.3,
+          "windDirDeg": 116,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 91.6,
+          "dewF": 68.5,
+          "windMph": 5.9,
+          "gustMph": 14.3,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 91.7,
+          "dewF": 69.2,
+          "windMph": 6.2,
+          "gustMph": 14.5,
+          "windDirDeg": 105,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 90.4,
+          "dewF": 69.8,
+          "windMph": 7.1,
+          "gustMph": 15.4,
+          "windDirDeg": 101,
+          "precipIn": 0.02
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 88.2,
+          "dewF": 71.1,
+          "windMph": 8,
+          "gustMph": 16.8,
+          "windDirDeg": 101,
+          "precipIn": 0.02
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 86.2,
+          "dewF": 71.2,
+          "windMph": 8.4,
+          "gustMph": 17.2,
+          "windDirDeg": 101,
+          "precipIn": 0.02
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 84.4,
+          "dewF": 70.4,
+          "windMph": 8.2,
+          "gustMph": 16.1,
+          "windDirDeg": 99,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 82.7,
+          "dewF": 69.3,
+          "windMph": 7.7,
+          "gustMph": 14.1,
+          "windDirDeg": 100,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 81.2,
+          "dewF": 68.3,
+          "windMph": 7.2,
+          "gustMph": 12.8,
+          "windDirDeg": 104,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 80.1,
+          "dewF": 67.3,
+          "windMph": 7.1,
+          "gustMph": 13.2,
+          "windDirDeg": 118,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 79.2,
+          "dewF": 66.5,
+          "windMph": 7.9,
+          "gustMph": 14.3,
+          "windDirDeg": 133,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 78.3,
+          "dewF": 65.6,
+          "windMph": 8.5,
+          "gustMph": 15,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 77.2,
+          "dewF": 64.9,
+          "windMph": 8,
+          "gustMph": 14.5,
+          "windDirDeg": 144,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 75.9,
+          "dewF": 64.6,
+          "windMph": 6.9,
+          "gustMph": 13.4,
+          "windDirDeg": 144,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 74.9,
+          "dewF": 64.1,
+          "windMph": 6.1,
+          "gustMph": 12.3,
+          "windDirDeg": 144,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 74,
+          "dewF": 63.6,
+          "windMph": 5.5,
+          "gustMph": 11.2,
+          "windDirDeg": 148,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 73.3,
+          "dewF": 62.9,
+          "windMph": 5.4,
+          "gustMph": 10.1,
+          "windDirDeg": 156,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "ecmwf_ifs025",
+      "issuedAt": "2026-07-29T00:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 84.1,
+          "dewF": 73.3,
+          "windMph": 6.5,
+          "gustMph": null,
+          "windDirDeg": 68,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 82.7,
+          "dewF": 73.5,
+          "windMph": 5.4,
+          "gustMph": null,
+          "windDirDeg": 73,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 80.7,
+          "dewF": 73.9,
+          "windMph": 4.1,
+          "gustMph": null,
+          "windDirDeg": 84,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 78.9,
+          "dewF": 74,
+          "windMph": 3.1,
+          "gustMph": 5.1,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 77.7,
+          "dewF": 73.9,
+          "windMph": 3.1,
+          "gustMph": 5.8,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 76.7,
+          "dewF": 73.6,
+          "windMph": 3.6,
+          "gustMph": 6.7,
+          "windDirDeg": 83,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 75.8,
+          "dewF": 73,
+          "windMph": 4.1,
+          "gustMph": 7.2,
+          "windDirDeg": 81,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 74.7,
+          "dewF": 72.3,
+          "windMph": 4.1,
+          "gustMph": 7.2,
+          "windDirDeg": 81,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 73.8,
+          "dewF": 71.6,
+          "windMph": 4.1,
+          "gustMph": 6.7,
+          "windDirDeg": 81,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 73,
+          "dewF": 71.2,
+          "windMph": 3.8,
+          "gustMph": 6.5,
+          "windDirDeg": 87,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 72.6,
+          "dewF": 71.1,
+          "windMph": 3.6,
+          "gustMph": 6.3,
+          "windDirDeg": 101,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 72.4,
+          "dewF": 71.2,
+          "windMph": 3.9,
+          "gustMph": 6.5,
+          "windDirDeg": 121,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 73.3,
+          "dewF": 71.5,
+          "windMph": 4.6,
+          "gustMph": 7.4,
+          "windDirDeg": 133,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 75.9,
+          "dewF": 71.8,
+          "windMph": 5.6,
+          "gustMph": 10.1,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 79.5,
+          "dewF": 72.1,
+          "windMph": 6.8,
+          "gustMph": 13.6,
+          "windDirDeg": 148,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 82.8,
+          "dewF": 72,
+          "windMph": 7.5,
+          "gustMph": 16.3,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 85,
+          "dewF": 71.5,
+          "windMph": 7.2,
+          "gustMph": 16.8,
+          "windDirDeg": 144,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 86.8,
+          "dewF": 71.3,
+          "windMph": 7,
+          "gustMph": 16.3,
+          "windDirDeg": 132,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 88.2,
+          "dewF": 70.6,
+          "windMph": 6.6,
+          "gustMph": 15.9,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 89.3,
+          "dewF": 70,
+          "windMph": 6.4,
+          "gustMph": 15.7,
+          "windDirDeg": 119,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 90,
+          "dewF": 68.9,
+          "windMph": 6.4,
+          "gustMph": 15.4,
+          "windDirDeg": 119,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 90.1,
+          "dewF": 68.4,
+          "windMph": 6.5,
+          "gustMph": 15.4,
+          "windDirDeg": 117,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 89.3,
+          "dewF": 68.3,
+          "windMph": 6.9,
+          "gustMph": 16.1,
+          "windDirDeg": 111,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 87.9,
+          "dewF": 68.1,
+          "windMph": 7.9,
+          "gustMph": 17.2,
+          "windDirDeg": 105,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 86.3,
+          "dewF": 67.7,
+          "windMph": 8.5,
+          "gustMph": 17.4,
+          "windDirDeg": 102,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 84.4,
+          "dewF": 67,
+          "windMph": 8.6,
+          "gustMph": 16.6,
+          "windDirDeg": 100,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 82.2,
+          "dewF": 66,
+          "windMph": 8.1,
+          "gustMph": 15,
+          "windDirDeg": 98,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 80.4,
+          "dewF": 65.3,
+          "windMph": 7.8,
+          "gustMph": 13.6,
+          "windDirDeg": 102,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 79.1,
+          "dewF": 64.5,
+          "windMph": 7.2,
+          "gustMph": 13.4,
+          "windDirDeg": 116,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 78.1,
+          "dewF": 64,
+          "windMph": 7.3,
+          "gustMph": 13.4,
+          "windDirDeg": 135,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 77,
+          "dewF": 63.4,
+          "windMph": 7.6,
+          "gustMph": 13.2,
+          "windDirDeg": 148,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 75.8,
+          "dewF": 63.2,
+          "windMph": 7.1,
+          "gustMph": 12.5,
+          "windDirDeg": 152,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 74.7,
+          "dewF": 63,
+          "windMph": 6.3,
+          "gustMph": 11.4,
+          "windDirDeg": 153,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 73.8,
+          "dewF": 63,
+          "windMph": 5.6,
+          "gustMph": 10.7,
+          "windDirDeg": 151,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 72.9,
+          "dewF": 62.9,
+          "windMph": 5.4,
+          "gustMph": 10.1,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 72.1,
+          "dewF": 63,
+          "windMph": 5.5,
+          "gustMph": 9.6,
+          "windDirDeg": 159,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T12:00:00Z",
+          "tempF": 72.4,
+          "dewF": 63.3,
+          "windMph": 5.9,
+          "gustMph": 10.1,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T13:00:00Z",
+          "tempF": 74.5,
+          "dewF": 63.2,
+          "windMph": 6.7,
+          "gustMph": 12.1,
+          "windDirDeg": 159,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T14:00:00Z",
+          "tempF": 77.4,
+          "dewF": 63.4,
+          "windMph": 7.5,
+          "gustMph": 14.8,
+          "windDirDeg": 157,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T15:00:00Z",
+          "tempF": 80.2,
+          "dewF": 62.6,
+          "windMph": 8.1,
+          "gustMph": 17,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T16:00:00Z",
+          "tempF": 82.3,
+          "dewF": 61.8,
+          "windMph": 8.3,
+          "gustMph": 17.9,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T17:00:00Z",
+          "tempF": 84,
+          "dewF": 60.4,
+          "windMph": 8.2,
+          "gustMph": 18.1,
+          "windDirDeg": 158,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T18:00:00Z",
+          "tempF": 85.4,
+          "dewF": 59,
+          "windMph": 7.9,
+          "gustMph": 17.7,
+          "windDirDeg": 158,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T19:00:00Z",
+          "tempF": 86.3,
+          "dewF": 58.4,
+          "windMph": 7.6,
+          "gustMph": 16.6,
+          "windDirDeg": 161,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T20:00:00Z",
+          "tempF": 86.8,
+          "dewF": 58.2,
+          "windMph": 7,
+          "gustMph": 14.8,
+          "windDirDeg": 163,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T21:00:00Z",
+          "tempF": 87.1,
+          "dewF": 57.7,
+          "windMph": 6.7,
+          "gustMph": 13.6,
+          "windDirDeg": 166,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T22:00:00Z",
+          "tempF": 87.3,
+          "dewF": 57.9,
+          "windMph": 6.8,
+          "gustMph": 13.9,
+          "windDirDeg": 169,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T23:00:00Z",
+          "tempF": 87.4,
+          "dewF": 58,
+          "windMph": 7.5,
+          "gustMph": 14.8,
+          "windDirDeg": 170,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "gfs_seamless",
+      "issuedAt": "2026-07-28T12:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-28T12:00:00Z",
+          "tempF": 76.8,
+          "dewF": 73.3,
+          "windMph": 3.6,
+          "gustMph": 6.3,
+          "windDirDeg": 2,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-28T13:00:00Z",
+          "tempF": 78.9,
+          "dewF": 73,
+          "windMph": 2.6,
+          "gustMph": 3.1,
+          "windDirDeg": 288,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T14:00:00Z",
+          "tempF": 81.4,
+          "dewF": 72.4,
+          "windMph": 2.8,
+          "gustMph": 3.1,
+          "windDirDeg": 301,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T15:00:00Z",
+          "tempF": 84.2,
+          "dewF": 71.2,
+          "windMph": 5.1,
+          "gustMph": 5.8,
+          "windDirDeg": 334,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T16:00:00Z",
+          "tempF": 87.3,
+          "dewF": 69.7,
+          "windMph": 4.1,
+          "gustMph": 4.5,
+          "windDirDeg": 12,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T17:00:00Z",
+          "tempF": 88.9,
+          "dewF": 69,
+          "windMph": 6.7,
+          "gustMph": 7.4,
+          "windDirDeg": 24,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T18:00:00Z",
+          "tempF": 90.5,
+          "dewF": 68.2,
+          "windMph": 7,
+          "gustMph": 8.1,
+          "windDirDeg": 25,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T19:00:00Z",
+          "tempF": 90.4,
+          "dewF": 67.4,
+          "windMph": 8.7,
+          "gustMph": 10.7,
+          "windDirDeg": 25,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T20:00:00Z",
+          "tempF": 91.2,
+          "dewF": 67.5,
+          "windMph": 9.1,
+          "gustMph": 11.6,
+          "windDirDeg": 35,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T21:00:00Z",
+          "tempF": 90.9,
+          "dewF": 65.3,
+          "windMph": 9,
+          "gustMph": 11.4,
+          "windDirDeg": 32,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T22:00:00Z",
+          "tempF": 89.4,
+          "dewF": 65.9,
+          "windMph": 8.6,
+          "gustMph": 11.9,
+          "windDirDeg": 43,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T23:00:00Z",
+          "tempF": 87.8,
+          "dewF": 66.3,
+          "windMph": 7.9,
+          "gustMph": 11,
+          "windDirDeg": 58,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 86.7,
+          "dewF": 66.9,
+          "windMph": 7.2,
+          "gustMph": 10.7,
+          "windDirDeg": 41,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 84,
+          "dewF": 67.1,
+          "windMph": 7,
+          "gustMph": 13.4,
+          "windDirDeg": 40,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 81.4,
+          "dewF": 67.6,
+          "windMph": 6.6,
+          "gustMph": 13.9,
+          "windDirDeg": 57,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 80.5,
+          "dewF": 68.1,
+          "windMph": 4.5,
+          "gustMph": 9.6,
+          "windDirDeg": 66,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 78.7,
+          "dewF": 66,
+          "windMph": 4.1,
+          "gustMph": 9.8,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 77,
+          "dewF": 65.2,
+          "windMph": 4.1,
+          "gustMph": 8.1,
+          "windDirDeg": 63,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 77.8,
+          "dewF": 65.5,
+          "windMph": 3,
+          "gustMph": 8.5,
+          "windDirDeg": 75,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 76.8,
+          "dewF": 64.5,
+          "windMph": 2.1,
+          "gustMph": 7.2,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 75,
+          "dewF": 62.8,
+          "windMph": 3.1,
+          "gustMph": 8.1,
+          "windDirDeg": 88,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 73.3,
+          "dewF": 62.1,
+          "windMph": 3.7,
+          "gustMph": 6.5,
+          "windDirDeg": 55,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 72.3,
+          "dewF": 61.5,
+          "windMph": 4,
+          "gustMph": 6.9,
+          "windDirDeg": 76,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 71.5,
+          "dewF": 62.3,
+          "windMph": 4.8,
+          "gustMph": 8.9,
+          "windDirDeg": 79,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 71.8,
+          "dewF": 63.5,
+          "windMph": 3.3,
+          "gustMph": 6.9,
+          "windDirDeg": 76,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 76.2,
+          "dewF": 63.6,
+          "windMph": 3.9,
+          "gustMph": 9.4,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 80.5,
+          "dewF": 63.3,
+          "windMph": 4.7,
+          "gustMph": 10.3,
+          "windDirDeg": 128,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 85,
+          "dewF": 62.6,
+          "windMph": 5.1,
+          "gustMph": 7.4,
+          "windDirDeg": 134,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 88.4,
+          "dewF": 61.7,
+          "windMph": 4.6,
+          "gustMph": 6.9,
+          "windDirDeg": 139,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 90.8,
+          "dewF": 61.7,
+          "windMph": 5.3,
+          "gustMph": 6.9,
+          "windDirDeg": 125,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 92.8,
+          "dewF": 60.3,
+          "windMph": 5.8,
+          "gustMph": 7.2,
+          "windDirDeg": 115,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 94.3,
+          "dewF": 59,
+          "windMph": 5.6,
+          "gustMph": 6.7,
+          "windDirDeg": 109,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 95.3,
+          "dewF": 58,
+          "windMph": 5.4,
+          "gustMph": 6.3,
+          "windDirDeg": 97,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 95.6,
+          "dewF": 58.3,
+          "windMph": 5.4,
+          "gustMph": 6.3,
+          "windDirDeg": 83,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 95,
+          "dewF": 59.7,
+          "windMph": 6.6,
+          "gustMph": 7.8,
+          "windDirDeg": 57,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 94.2,
+          "dewF": 59,
+          "windMph": 6.3,
+          "gustMph": 7.6,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 93.1,
+          "dewF": 58,
+          "windMph": 4.6,
+          "gustMph": 6.3,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 89.6,
+          "dewF": 56.7,
+          "windMph": 3.9,
+          "gustMph": 6.5,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 85,
+          "dewF": 54.3,
+          "windMph": 4.6,
+          "gustMph": 8.5,
+          "windDirDeg": 106,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 82.5,
+          "dewF": 54.4,
+          "windMph": 5,
+          "gustMph": 9.4,
+          "windDirDeg": 119,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 80.8,
+          "dewF": 54.9,
+          "windMph": 3.8,
+          "gustMph": 11.2,
+          "windDirDeg": 147,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 78.7,
+          "dewF": 56.8,
+          "windMph": 4.4,
+          "gustMph": 4.9,
+          "windDirDeg": 78,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 77.8,
+          "dewF": 57.1,
+          "windMph": 4.7,
+          "gustMph": 7.2,
+          "windDirDeg": 118,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 77,
+          "dewF": 57.5,
+          "windMph": 5.1,
+          "gustMph": 8.5,
+          "windDirDeg": 145,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 76,
+          "dewF": 58.1,
+          "windMph": 4.8,
+          "gustMph": 13,
+          "windDirDeg": 169,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 74.6,
+          "dewF": 57.9,
+          "windMph": 5.7,
+          "gustMph": 15.4,
+          "windDirDeg": 173,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 73.9,
+          "dewF": 57.2,
+          "windMph": 6.5,
+          "gustMph": 15.4,
+          "windDirDeg": 178,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 72.6,
+          "dewF": 57.5,
+          "windMph": 5.2,
+          "gustMph": 12.8,
+          "windDirDeg": 175,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "gfs_seamless",
+      "issuedAt": "2026-07-29T00:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 82.7,
+          "dewF": 73.6,
+          "windMph": 6.8,
+          "gustMph": 9.4,
+          "windDirDeg": 54,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 80.2,
+          "dewF": 72.7,
+          "windMph": 4.7,
+          "gustMph": 9.8,
+          "windDirDeg": 61,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 76.9,
+          "dewF": 72.3,
+          "windMph": 4.2,
+          "gustMph": 7.8,
+          "windDirDeg": 67,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 74.9,
+          "dewF": 70.7,
+          "windMph": 2.4,
+          "gustMph": 4.7,
+          "windDirDeg": 51,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 73.9,
+          "dewF": 69.1,
+          "windMph": 5,
+          "gustMph": 7.2,
+          "windDirDeg": 74,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 72.8,
+          "dewF": 69.4,
+          "windMph": 4.9,
+          "gustMph": 7.4,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 71.6,
+          "dewF": 68.5,
+          "windMph": 2.1,
+          "gustMph": 4,
+          "windDirDeg": 74,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 70.7,
+          "dewF": 68,
+          "windMph": 0.5,
+          "gustMph": 2.7,
+          "windDirDeg": 246,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 70.2,
+          "dewF": 67.8,
+          "windMph": 1.3,
+          "gustMph": 3.1,
+          "windDirDeg": 47,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 69.9,
+          "dewF": 67.8,
+          "windMph": 4.6,
+          "gustMph": 5.4,
+          "windDirDeg": 63,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 69.6,
+          "dewF": 67.4,
+          "windMph": 3.4,
+          "gustMph": 5.6,
+          "windDirDeg": 81,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 69.2,
+          "dewF": 67.1,
+          "windMph": 3.6,
+          "gustMph": 5.6,
+          "windDirDeg": 89,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 69.7,
+          "dewF": 68.5,
+          "windMph": 3.7,
+          "gustMph": 6.3,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 73.3,
+          "dewF": 72.3,
+          "windMph": 3.8,
+          "gustMph": 7.8,
+          "windDirDeg": 142,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 76.5,
+          "dewF": 73,
+          "windMph": 4.6,
+          "gustMph": 8.7,
+          "windDirDeg": 153,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 80.7,
+          "dewF": 72.8,
+          "windMph": 5.7,
+          "gustMph": 8.5,
+          "windDirDeg": 137,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 84,
+          "dewF": 71.8,
+          "windMph": 5.3,
+          "gustMph": 6.5,
+          "windDirDeg": 129,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 86.8,
+          "dewF": 70.8,
+          "windMph": 5.4,
+          "gustMph": 6.7,
+          "windDirDeg": 122,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 88.7,
+          "dewF": 70,
+          "windMph": 6.7,
+          "gustMph": 7.8,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 89.6,
+          "dewF": 69.1,
+          "windMph": 6.8,
+          "gustMph": 8.1,
+          "windDirDeg": 83,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 91.3,
+          "dewF": 68.3,
+          "windMph": 6.7,
+          "gustMph": 8.1,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 92.2,
+          "dewF": 67.1,
+          "windMph": 6.1,
+          "gustMph": 7.2,
+          "windDirDeg": 103,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 92,
+          "dewF": 65.6,
+          "windMph": 7.5,
+          "gustMph": 8.7,
+          "windDirDeg": 75,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 91.3,
+          "dewF": 65.6,
+          "windMph": 7.3,
+          "gustMph": 8.7,
+          "windDirDeg": 59,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 89.5,
+          "dewF": 65.4,
+          "windMph": 8.7,
+          "gustMph": 11.2,
+          "windDirDeg": 53,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 86.3,
+          "dewF": 65.5,
+          "windMph": 6.8,
+          "gustMph": 13.2,
+          "windDirDeg": 69,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 83.1,
+          "dewF": 62.5,
+          "windMph": 6,
+          "gustMph": 12.3,
+          "windDirDeg": 105,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 80.7,
+          "dewF": 62.5,
+          "windMph": 4.9,
+          "gustMph": 10.7,
+          "windDirDeg": 122,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 79.2,
+          "dewF": 62.1,
+          "windMph": 4.9,
+          "gustMph": 11.4,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 77.7,
+          "dewF": 61.7,
+          "windMph": 5,
+          "gustMph": 11.4,
+          "windDirDeg": 128,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 76.1,
+          "dewF": 61.7,
+          "windMph": 4.9,
+          "gustMph": 11.2,
+          "windDirDeg": 136,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 75,
+          "dewF": 61.1,
+          "windMph": 5,
+          "gustMph": 11.9,
+          "windDirDeg": 147,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 74.2,
+          "dewF": 59.9,
+          "windMph": 6,
+          "gustMph": 15.4,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 73,
+          "dewF": 58.7,
+          "windMph": 5.2,
+          "gustMph": 13.9,
+          "windDirDeg": 157,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 72.3,
+          "dewF": 58.1,
+          "windMph": 6.3,
+          "gustMph": 14.5,
+          "windDirDeg": 166,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 71.1,
+          "dewF": 57.9,
+          "windMph": 4.8,
+          "gustMph": 13,
+          "windDirDeg": 161,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T12:00:00Z",
+          "tempF": 71.4,
+          "dewF": 58.1,
+          "windMph": 4.3,
+          "gustMph": 12.5,
+          "windDirDeg": 161,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T13:00:00Z",
+          "tempF": 75,
+          "dewF": 58.7,
+          "windMph": 7.4,
+          "gustMph": 12.5,
+          "windDirDeg": 182,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T14:00:00Z",
+          "tempF": 79.4,
+          "dewF": 58.6,
+          "windMph": 7.2,
+          "gustMph": 16.8,
+          "windDirDeg": 190,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T15:00:00Z",
+          "tempF": 83.9,
+          "dewF": 59,
+          "windMph": 7.8,
+          "gustMph": 14.3,
+          "windDirDeg": 181,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T16:00:00Z",
+          "tempF": 86.9,
+          "dewF": 58.3,
+          "windMph": 8.8,
+          "gustMph": 12.8,
+          "windDirDeg": 175,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T17:00:00Z",
+          "tempF": 89.4,
+          "dewF": 57.3,
+          "windMph": 9.6,
+          "gustMph": 13,
+          "windDirDeg": 162,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T18:00:00Z",
+          "tempF": 90.4,
+          "dewF": 56.6,
+          "windMph": 9.9,
+          "gustMph": 13,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T19:00:00Z",
+          "tempF": 92,
+          "dewF": 56.1,
+          "windMph": 10,
+          "gustMph": 12.8,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T20:00:00Z",
+          "tempF": 92.8,
+          "dewF": 54.9,
+          "windMph": 9.8,
+          "gustMph": 12.8,
+          "windDirDeg": 158,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T21:00:00Z",
+          "tempF": 93.1,
+          "dewF": 54.2,
+          "windMph": 9.2,
+          "gustMph": 11.9,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T22:00:00Z",
+          "tempF": 93,
+          "dewF": 53,
+          "windMph": 8.2,
+          "gustMph": 10.3,
+          "windDirDeg": 153,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T23:00:00Z",
+          "tempF": 92.1,
+          "dewF": 51.2,
+          "windMph": 9.2,
+          "gustMph": 12.3,
+          "windDirDeg": 153,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "ncep_hrrr_conus",
+      "issuedAt": "2026-07-28T12:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-28T12:00:00Z",
+          "tempF": 76.8,
+          "dewF": 73.3,
+          "windMph": 3.6,
+          "gustMph": 6.3,
+          "windDirDeg": 2,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-28T13:00:00Z",
+          "tempF": 78.9,
+          "dewF": 73,
+          "windMph": 2.6,
+          "gustMph": 3.1,
+          "windDirDeg": 288,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T14:00:00Z",
+          "tempF": 81.4,
+          "dewF": 72.4,
+          "windMph": 2.8,
+          "gustMph": 3.1,
+          "windDirDeg": 301,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T15:00:00Z",
+          "tempF": 84.2,
+          "dewF": 71.2,
+          "windMph": 5.1,
+          "gustMph": 5.8,
+          "windDirDeg": 334,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T16:00:00Z",
+          "tempF": 87.3,
+          "dewF": 69.7,
+          "windMph": 4.1,
+          "gustMph": 4.5,
+          "windDirDeg": 12,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T17:00:00Z",
+          "tempF": 88.9,
+          "dewF": 69,
+          "windMph": 6.7,
+          "gustMph": 7.4,
+          "windDirDeg": 24,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T18:00:00Z",
+          "tempF": 90.5,
+          "dewF": 68.2,
+          "windMph": 7,
+          "gustMph": 8.1,
+          "windDirDeg": 25,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T19:00:00Z",
+          "tempF": 90.4,
+          "dewF": 67.4,
+          "windMph": 8.7,
+          "gustMph": 10.7,
+          "windDirDeg": 25,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T20:00:00Z",
+          "tempF": 91.2,
+          "dewF": 67.5,
+          "windMph": 9.1,
+          "gustMph": 11.6,
+          "windDirDeg": 35,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T21:00:00Z",
+          "tempF": 90.9,
+          "dewF": 65.3,
+          "windMph": 9,
+          "gustMph": 11.4,
+          "windDirDeg": 32,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T22:00:00Z",
+          "tempF": 89.4,
+          "dewF": 65.9,
+          "windMph": 8.6,
+          "gustMph": 11.9,
+          "windDirDeg": 43,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T23:00:00Z",
+          "tempF": 87.8,
+          "dewF": 66.3,
+          "windMph": 7.9,
+          "gustMph": 11,
+          "windDirDeg": 58,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 86.7,
+          "dewF": 66.9,
+          "windMph": 7.2,
+          "gustMph": 10.7,
+          "windDirDeg": 41,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 84,
+          "dewF": 67.1,
+          "windMph": 7,
+          "gustMph": 13.4,
+          "windDirDeg": 40,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 81.4,
+          "dewF": 67.6,
+          "windMph": 6.6,
+          "gustMph": 13.9,
+          "windDirDeg": 57,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 80.5,
+          "dewF": 68.1,
+          "windMph": 4.5,
+          "gustMph": 9.6,
+          "windDirDeg": 66,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 78.7,
+          "dewF": 66,
+          "windMph": 4.1,
+          "gustMph": 9.8,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 77,
+          "dewF": 65.2,
+          "windMph": 4.1,
+          "gustMph": 8.1,
+          "windDirDeg": 63,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 77.8,
+          "dewF": 65.5,
+          "windMph": 3,
+          "gustMph": 8.5,
+          "windDirDeg": 75,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 76.8,
+          "dewF": 64.5,
+          "windMph": 2.1,
+          "gustMph": 7.2,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 75,
+          "dewF": 62.8,
+          "windMph": 3.1,
+          "gustMph": 8.1,
+          "windDirDeg": 88,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 73.3,
+          "dewF": 62.1,
+          "windMph": 3.7,
+          "gustMph": 6.5,
+          "windDirDeg": 55,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 72.3,
+          "dewF": 61.5,
+          "windMph": 4,
+          "gustMph": 6.9,
+          "windDirDeg": 76,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 71.5,
+          "dewF": 62.3,
+          "windMph": 4.8,
+          "gustMph": 8.9,
+          "windDirDeg": 79,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 71.8,
+          "dewF": 63.5,
+          "windMph": 3.3,
+          "gustMph": 6.9,
+          "windDirDeg": 76,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 76.2,
+          "dewF": 63.6,
+          "windMph": 3.9,
+          "gustMph": 9.4,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 80.5,
+          "dewF": 63.3,
+          "windMph": 4.7,
+          "gustMph": 10.3,
+          "windDirDeg": 128,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 85,
+          "dewF": 62.6,
+          "windMph": 5.1,
+          "gustMph": 7.4,
+          "windDirDeg": 134,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 88.4,
+          "dewF": 61.7,
+          "windMph": 4.6,
+          "gustMph": 6.9,
+          "windDirDeg": 139,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 90.8,
+          "dewF": 61.7,
+          "windMph": 5.3,
+          "gustMph": 6.9,
+          "windDirDeg": 125,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 92.8,
+          "dewF": 60.3,
+          "windMph": 5.8,
+          "gustMph": 7.2,
+          "windDirDeg": 115,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 94.3,
+          "dewF": 59,
+          "windMph": 5.6,
+          "gustMph": 6.7,
+          "windDirDeg": 109,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 95.3,
+          "dewF": 58,
+          "windMph": 5.4,
+          "gustMph": 6.3,
+          "windDirDeg": 97,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 95.6,
+          "dewF": 58.3,
+          "windMph": 5.4,
+          "gustMph": 6.3,
+          "windDirDeg": 83,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 95,
+          "dewF": 59.7,
+          "windMph": 6.6,
+          "gustMph": 7.8,
+          "windDirDeg": 57,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 94.2,
+          "dewF": 59,
+          "windMph": 6.3,
+          "gustMph": 7.6,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 93.1,
+          "dewF": 58,
+          "windMph": 4.6,
+          "gustMph": 6.3,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 89.6,
+          "dewF": 56.7,
+          "windMph": 3.9,
+          "gustMph": 6.5,
+          "windDirDeg": 123,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 85,
+          "dewF": 54.3,
+          "windMph": 4.6,
+          "gustMph": 8.5,
+          "windDirDeg": 106,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 82.5,
+          "dewF": 54.4,
+          "windMph": 5,
+          "gustMph": 9.4,
+          "windDirDeg": 119,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 80.8,
+          "dewF": 54.9,
+          "windMph": 3.8,
+          "gustMph": 11.2,
+          "windDirDeg": 147,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 78.7,
+          "dewF": 56.8,
+          "windMph": 4.4,
+          "gustMph": 4.9,
+          "windDirDeg": 78,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 77.8,
+          "dewF": 57.1,
+          "windMph": 4.7,
+          "gustMph": 7.2,
+          "windDirDeg": 118,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 77,
+          "dewF": 57.5,
+          "windMph": 5.1,
+          "gustMph": 8.5,
+          "windDirDeg": 145,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 76,
+          "dewF": 58.1,
+          "windMph": 4.8,
+          "gustMph": 13,
+          "windDirDeg": 169,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 74.6,
+          "dewF": 57.9,
+          "windMph": 5.7,
+          "gustMph": 15.4,
+          "windDirDeg": 173,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 73.9,
+          "dewF": 57.2,
+          "windMph": 6.5,
+          "gustMph": 15.4,
+          "windDirDeg": 178,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 72.6,
+          "dewF": 57.5,
+          "windMph": 5.2,
+          "gustMph": 12.8,
+          "windDirDeg": 175,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "ncep_hrrr_conus",
+      "issuedAt": "2026-07-29T00:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 82.7,
+          "dewF": 73.6,
+          "windMph": 6.8,
+          "gustMph": 9.4,
+          "windDirDeg": 54,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 80.2,
+          "dewF": 72.7,
+          "windMph": 4.7,
+          "gustMph": 9.8,
+          "windDirDeg": 61,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 76.9,
+          "dewF": 72.3,
+          "windMph": 4.2,
+          "gustMph": 7.8,
+          "windDirDeg": 67,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 74.9,
+          "dewF": 70.7,
+          "windMph": 2.4,
+          "gustMph": 4.7,
+          "windDirDeg": 51,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 73.9,
+          "dewF": 69.1,
+          "windMph": 5,
+          "gustMph": 7.2,
+          "windDirDeg": 74,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 72.8,
+          "dewF": 69.4,
+          "windMph": 4.9,
+          "gustMph": 7.4,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 71.6,
+          "dewF": 68.5,
+          "windMph": 2.1,
+          "gustMph": 4,
+          "windDirDeg": 74,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 70.7,
+          "dewF": 68,
+          "windMph": 0.5,
+          "gustMph": 2.7,
+          "windDirDeg": 246,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 70.2,
+          "dewF": 67.8,
+          "windMph": 1.3,
+          "gustMph": 3.1,
+          "windDirDeg": 47,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 69.9,
+          "dewF": 67.8,
+          "windMph": 4.6,
+          "gustMph": 5.4,
+          "windDirDeg": 63,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 69.6,
+          "dewF": 67.4,
+          "windMph": 3.4,
+          "gustMph": 5.6,
+          "windDirDeg": 81,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 69.2,
+          "dewF": 67.1,
+          "windMph": 3.6,
+          "gustMph": 5.6,
+          "windDirDeg": 89,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 69.7,
+          "dewF": 68.5,
+          "windMph": 3.7,
+          "gustMph": 6.3,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 73.3,
+          "dewF": 72.3,
+          "windMph": 3.8,
+          "gustMph": 7.8,
+          "windDirDeg": 142,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 76.5,
+          "dewF": 73,
+          "windMph": 4.6,
+          "gustMph": 8.7,
+          "windDirDeg": 153,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 80.7,
+          "dewF": 72.8,
+          "windMph": 5.7,
+          "gustMph": 8.5,
+          "windDirDeg": 137,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 84,
+          "dewF": 71.8,
+          "windMph": 5.3,
+          "gustMph": 6.5,
+          "windDirDeg": 129,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 86.8,
+          "dewF": 70.8,
+          "windMph": 5.4,
+          "gustMph": 6.7,
+          "windDirDeg": 122,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 88.7,
+          "dewF": 70,
+          "windMph": 6.7,
+          "gustMph": 7.8,
+          "windDirDeg": 94,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 89.6,
+          "dewF": 69.1,
+          "windMph": 6.8,
+          "gustMph": 8.1,
+          "windDirDeg": 83,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 91.3,
+          "dewF": 68.3,
+          "windMph": 6.7,
+          "gustMph": 8.1,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 92.2,
+          "dewF": 67.1,
+          "windMph": 6.1,
+          "gustMph": 7.2,
+          "windDirDeg": 103,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 92,
+          "dewF": 65.6,
+          "windMph": 7.5,
+          "gustMph": 8.7,
+          "windDirDeg": 75,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 91.3,
+          "dewF": 65.6,
+          "windMph": 7.3,
+          "gustMph": 8.7,
+          "windDirDeg": 59,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 89.5,
+          "dewF": 65.4,
+          "windMph": 8.7,
+          "gustMph": 11.2,
+          "windDirDeg": 53,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 86.3,
+          "dewF": 65.5,
+          "windMph": 6.8,
+          "gustMph": 13.2,
+          "windDirDeg": 69,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 83.1,
+          "dewF": 62.5,
+          "windMph": 6,
+          "gustMph": 12.3,
+          "windDirDeg": 105,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 80.7,
+          "dewF": 62.5,
+          "windMph": 4.9,
+          "gustMph": 10.7,
+          "windDirDeg": 122,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 79.2,
+          "dewF": 62.1,
+          "windMph": 4.9,
+          "gustMph": 11.4,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 77.7,
+          "dewF": 61.7,
+          "windMph": 5,
+          "gustMph": 11.4,
+          "windDirDeg": 128,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 76.1,
+          "dewF": 61.7,
+          "windMph": 4.9,
+          "gustMph": 11.2,
+          "windDirDeg": 136,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 75,
+          "dewF": 61.1,
+          "windMph": 5,
+          "gustMph": 11.9,
+          "windDirDeg": 147,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 74.2,
+          "dewF": 59.9,
+          "windMph": 6,
+          "gustMph": 15.4,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 73,
+          "dewF": 58.7,
+          "windMph": 5.2,
+          "gustMph": 13.9,
+          "windDirDeg": 157,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 72.3,
+          "dewF": 58.1,
+          "windMph": 6.3,
+          "gustMph": 14.5,
+          "windDirDeg": 166,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 71.1,
+          "dewF": 57.9,
+          "windMph": 4.8,
+          "gustMph": 13,
+          "windDirDeg": 161,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T12:00:00Z",
+          "tempF": 71.4,
+          "dewF": 58.1,
+          "windMph": 4.3,
+          "gustMph": 12.5,
+          "windDirDeg": 161,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T13:00:00Z",
+          "tempF": 75,
+          "dewF": 58.7,
+          "windMph": 7.4,
+          "gustMph": 12.5,
+          "windDirDeg": 182,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T14:00:00Z",
+          "tempF": 79.4,
+          "dewF": 58.6,
+          "windMph": 7.2,
+          "gustMph": 16.8,
+          "windDirDeg": 190,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T15:00:00Z",
+          "tempF": 83.9,
+          "dewF": 59,
+          "windMph": 7.8,
+          "gustMph": 14.3,
+          "windDirDeg": 181,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T16:00:00Z",
+          "tempF": 86.9,
+          "dewF": 58.3,
+          "windMph": 8.8,
+          "gustMph": 12.8,
+          "windDirDeg": 175,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T17:00:00Z",
+          "tempF": 89.4,
+          "dewF": 57.3,
+          "windMph": 9.6,
+          "gustMph": 13,
+          "windDirDeg": 162,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T18:00:00Z",
+          "tempF": 90.4,
+          "dewF": 56.6,
+          "windMph": 9.9,
+          "gustMph": 13,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T19:00:00Z",
+          "tempF": 92,
+          "dewF": 56.1,
+          "windMph": 10,
+          "gustMph": 12.8,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T20:00:00Z",
+          "tempF": 92.8,
+          "dewF": 54.9,
+          "windMph": 9.8,
+          "gustMph": 12.8,
+          "windDirDeg": 158,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T21:00:00Z",
+          "tempF": 93.1,
+          "dewF": 54.2,
+          "windMph": 9.2,
+          "gustMph": 11.9,
+          "windDirDeg": 156,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T22:00:00Z",
+          "tempF": 93,
+          "dewF": 53,
+          "windMph": 8.2,
+          "gustMph": 10.3,
+          "windDirDeg": 153,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T23:00:00Z",
+          "tempF": 92.1,
+          "dewF": 51.2,
+          "windMph": 9.2,
+          "gustMph": 12.3,
+          "windDirDeg": 153,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "ncep_nbm_conus",
+      "issuedAt": "2026-07-28T12:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-28T12:00:00Z",
+          "tempF": null,
+          "dewF": null,
+          "windMph": null,
+          "gustMph": null,
+          "windDirDeg": null,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-28T13:00:00Z",
+          "tempF": 76.3,
+          "dewF": 68.6,
+          "windMph": 6.9,
+          "gustMph": 8.1,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T14:00:00Z",
+          "tempF": 79.6,
+          "dewF": 68.9,
+          "windMph": 7.4,
+          "gustMph": 8.9,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T15:00:00Z",
+          "tempF": 81.2,
+          "dewF": 69.2,
+          "windMph": 7.6,
+          "gustMph": 9.4,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T16:00:00Z",
+          "tempF": 82.8,
+          "dewF": 68.9,
+          "windMph": 6.9,
+          "gustMph": 9.4,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T17:00:00Z",
+          "tempF": 84.4,
+          "dewF": 69.5,
+          "windMph": 6.9,
+          "gustMph": 9.6,
+          "windDirDeg": 40,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T18:00:00Z",
+          "tempF": 85.5,
+          "dewF": 69,
+          "windMph": 6.9,
+          "gustMph": 10.3,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T19:00:00Z",
+          "tempF": 86.4,
+          "dewF": 68.9,
+          "windMph": 6.9,
+          "gustMph": 10.5,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T20:00:00Z",
+          "tempF": 87.5,
+          "dewF": 69.3,
+          "windMph": 6.7,
+          "gustMph": 11,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T21:00:00Z",
+          "tempF": 88,
+          "dewF": 68.8,
+          "windMph": 6.7,
+          "gustMph": 10.3,
+          "windDirDeg": 50,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T22:00:00Z",
+          "tempF": 88,
+          "dewF": 68.2,
+          "windMph": 7.2,
+          "gustMph": 9.6,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-28T23:00:00Z",
+          "tempF": 87.5,
+          "dewF": 68.3,
+          "windMph": 7.2,
+          "gustMph": 8.9,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": 86.8,
+          "dewF": 68.1,
+          "windMph": 7.4,
+          "gustMph": 8.1,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 83.9,
+          "dewF": 68.5,
+          "windMph": 6.3,
+          "gustMph": 6.9,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 80.3,
+          "dewF": 68.8,
+          "windMph": 6,
+          "gustMph": 6.7,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 78.5,
+          "dewF": 69.1,
+          "windMph": 6.3,
+          "gustMph": 6.7,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 77,
+          "dewF": 69.3,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 75.6,
+          "dewF": 69,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 74.7,
+          "dewF": 68.8,
+          "windMph": 5.8,
+          "gustMph": 6.3,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 73.4,
+          "dewF": 68.3,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 72.9,
+          "dewF": 68.1,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 72,
+          "dewF": 67.6,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 71.3,
+          "dewF": 67.2,
+          "windMph": 5.4,
+          "gustMph": 5.8,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 70.7,
+          "dewF": 67.3,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 71.3,
+          "dewF": 67.2,
+          "windMph": 6,
+          "gustMph": 6.5,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 74.2,
+          "dewF": 67.2,
+          "windMph": 6.5,
+          "gustMph": 7.2,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 78.3,
+          "dewF": 67.7,
+          "windMph": 7.4,
+          "gustMph": 8.5,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 81.4,
+          "dewF": 68,
+          "windMph": 7.8,
+          "gustMph": 9.8,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 83.7,
+          "dewF": 67.4,
+          "windMph": 8.3,
+          "gustMph": 11.2,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 85.7,
+          "dewF": 67.1,
+          "windMph": 8.9,
+          "gustMph": 12.1,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 86.9,
+          "dewF": 66.6,
+          "windMph": 9.2,
+          "gustMph": 13.6,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 87.8,
+          "dewF": 66.3,
+          "windMph": 9.4,
+          "gustMph": 13.9,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 88.7,
+          "dewF": 65.9,
+          "windMph": 9.6,
+          "gustMph": 14.3,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 89.1,
+          "dewF": 65,
+          "windMph": 10.1,
+          "gustMph": 14.3,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 88.9,
+          "dewF": 64.8,
+          "windMph": 10.1,
+          "gustMph": 13.9,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 88.2,
+          "dewF": 64.8,
+          "windMph": 10.1,
+          "gustMph": 13,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 87.3,
+          "dewF": 64.6,
+          "windMph": 10.1,
+          "gustMph": 12.3,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 84.6,
+          "dewF": 65.2,
+          "windMph": 9.8,
+          "gustMph": 12,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 81.1,
+          "dewF": 65.5,
+          "windMph": 9.5,
+          "gustMph": 11.9,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 78.1,
+          "dewF": 65.4,
+          "windMph": 9.2,
+          "gustMph": 11.6,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 76.4,
+          "dewF": 65.2,
+          "windMph": 8.9,
+          "gustMph": 11.2,
+          "windDirDeg": 133,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 75.3,
+          "dewF": 65,
+          "windMph": 8.7,
+          "gustMph": 10.7,
+          "windDirDeg": 137,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 74.3,
+          "dewF": 64.7,
+          "windMph": 8.5,
+          "gustMph": 10.3,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 73.4,
+          "dewF": 64.4,
+          "windMph": 8.3,
+          "gustMph": 10,
+          "windDirDeg": 143,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 72.5,
+          "dewF": 64.1,
+          "windMph": 8.2,
+          "gustMph": 9.9,
+          "windDirDeg": 147,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 71.8,
+          "dewF": 63.9,
+          "windMph": 8.1,
+          "gustMph": 9.8,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 70.9,
+          "dewF": 63.6,
+          "windMph": 7.9,
+          "gustMph": 9.7,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 70.2,
+          "dewF": 63.4,
+          "windMph": 7.7,
+          "gustMph": 9.7,
+          "windDirDeg": 150,
+          "precipIn": 0
+        }
+      ]
+    },
+    {
+      "model": "ncep_nbm_conus",
+      "issuedAt": "2026-07-29T00:00:00Z",
+      "gridElevationM": 285,
+      "hourly": [
+        {
+          "time": "2026-07-29T00:00:00Z",
+          "tempF": null,
+          "dewF": null,
+          "windMph": null,
+          "gustMph": null,
+          "windDirDeg": null,
+          "precipIn": null
+        },
+        {
+          "time": "2026-07-29T01:00:00Z",
+          "tempF": 83.7,
+          "dewF": 69.3,
+          "windMph": 6.9,
+          "gustMph": 7.6,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T02:00:00Z",
+          "tempF": 80.3,
+          "dewF": 70,
+          "windMph": 6.7,
+          "gustMph": 7.4,
+          "windDirDeg": 60,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T03:00:00Z",
+          "tempF": 78.3,
+          "dewF": 70.5,
+          "windMph": 6.5,
+          "gustMph": 6.9,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T04:00:00Z",
+          "tempF": 76.9,
+          "dewF": 70.2,
+          "windMph": 5.8,
+          "gustMph": 6.3,
+          "windDirDeg": 70,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T05:00:00Z",
+          "tempF": 75.8,
+          "dewF": 70.3,
+          "windMph": 5.1,
+          "gustMph": 5.6,
+          "windDirDeg": 80,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T06:00:00Z",
+          "tempF": 74.7,
+          "dewF": 70.2,
+          "windMph": 5.1,
+          "gustMph": 5.6,
+          "windDirDeg": 90,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T07:00:00Z",
+          "tempF": 73.6,
+          "dewF": 70.5,
+          "windMph": 4.7,
+          "gustMph": 5.1,
+          "windDirDeg": 100,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T08:00:00Z",
+          "tempF": 72.9,
+          "dewF": 70.1,
+          "windMph": 4.5,
+          "gustMph": 4.9,
+          "windDirDeg": 100,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T09:00:00Z",
+          "tempF": 72.2,
+          "dewF": 69.4,
+          "windMph": 4.9,
+          "gustMph": 5.4,
+          "windDirDeg": 100,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T10:00:00Z",
+          "tempF": 71.5,
+          "dewF": 69.3,
+          "windMph": 4.9,
+          "gustMph": 5.4,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T11:00:00Z",
+          "tempF": 70.7,
+          "dewF": 68.6,
+          "windMph": 4.7,
+          "gustMph": 5.1,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T12:00:00Z",
+          "tempF": 71.6,
+          "dewF": 68.6,
+          "windMph": 5.1,
+          "gustMph": 5.6,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T13:00:00Z",
+          "tempF": 74.9,
+          "dewF": 69,
+          "windMph": 5.6,
+          "gustMph": 6,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T14:00:00Z",
+          "tempF": 79,
+          "dewF": 69.6,
+          "windMph": 6.5,
+          "gustMph": 7.6,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T15:00:00Z",
+          "tempF": 82.3,
+          "dewF": 70.2,
+          "windMph": 7.4,
+          "gustMph": 8.9,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T16:00:00Z",
+          "tempF": 84.8,
+          "dewF": 69.8,
+          "windMph": 7.6,
+          "gustMph": 10.1,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T17:00:00Z",
+          "tempF": 87.3,
+          "dewF": 69.2,
+          "windMph": 8.1,
+          "gustMph": 11.2,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T18:00:00Z",
+          "tempF": 88.7,
+          "dewF": 68.3,
+          "windMph": 8.5,
+          "gustMph": 12.8,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T19:00:00Z",
+          "tempF": 89.6,
+          "dewF": 68.5,
+          "windMph": 9.2,
+          "gustMph": 13.4,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T20:00:00Z",
+          "tempF": 90.2,
+          "dewF": 67.9,
+          "windMph": 9.6,
+          "gustMph": 14.3,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T21:00:00Z",
+          "tempF": 90,
+          "dewF": 68.3,
+          "windMph": 10.1,
+          "gustMph": 14.3,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T22:00:00Z",
+          "tempF": 89.8,
+          "dewF": 67.5,
+          "windMph": 10.3,
+          "gustMph": 13.9,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-29T23:00:00Z",
+          "tempF": 89.1,
+          "dewF": 67.5,
+          "windMph": 10.3,
+          "gustMph": 13.6,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T00:00:00Z",
+          "tempF": 87.3,
+          "dewF": 67,
+          "windMph": 10.3,
+          "gustMph": 12.8,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T01:00:00Z",
+          "tempF": 83.7,
+          "dewF": 66.9,
+          "windMph": 9.6,
+          "gustMph": 12.3,
+          "windDirDeg": 110,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T02:00:00Z",
+          "tempF": 80.1,
+          "dewF": 67.3,
+          "windMph": 9.6,
+          "gustMph": 12.5,
+          "windDirDeg": 120,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T03:00:00Z",
+          "tempF": 77.9,
+          "dewF": 67,
+          "windMph": 9.8,
+          "gustMph": 13.2,
+          "windDirDeg": 130,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T04:00:00Z",
+          "tempF": 76.7,
+          "dewF": 66.2,
+          "windMph": 9.4,
+          "gustMph": 12.8,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T05:00:00Z",
+          "tempF": 75.6,
+          "dewF": 65.9,
+          "windMph": 8.9,
+          "gustMph": 12.1,
+          "windDirDeg": 140,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T06:00:00Z",
+          "tempF": 74.7,
+          "dewF": 65.5,
+          "windMph": 8.9,
+          "gustMph": 12.1,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T07:00:00Z",
+          "tempF": 73.6,
+          "dewF": 65.6,
+          "windMph": 8.7,
+          "gustMph": 11.4,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T08:00:00Z",
+          "tempF": 73.1,
+          "dewF": 65.1,
+          "windMph": 8.5,
+          "gustMph": 11.2,
+          "windDirDeg": 150,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T09:00:00Z",
+          "tempF": 72.4,
+          "dewF": 64.7,
+          "windMph": 8.7,
+          "gustMph": 11.2,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T10:00:00Z",
+          "tempF": 71.5,
+          "dewF": 64.2,
+          "windMph": 8.5,
+          "gustMph": 11.2,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T11:00:00Z",
+          "tempF": 70.6,
+          "dewF": 63.4,
+          "windMph": 8.5,
+          "gustMph": 11,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T12:00:00Z",
+          "tempF": 71.1,
+          "dewF": 63.5,
+          "windMph": 8.7,
+          "gustMph": 11,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T13:00:00Z",
+          "tempF": 73.3,
+          "dewF": 63.9,
+          "windMph": 9.3,
+          "gustMph": 11.9,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T14:00:00Z",
+          "tempF": 76.5,
+          "dewF": 64.5,
+          "windMph": 10.2,
+          "gustMph": 13.4,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T15:00:00Z",
+          "tempF": 79.4,
+          "dewF": 64.8,
+          "windMph": 11,
+          "gustMph": 14.8,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T16:00:00Z",
+          "tempF": 81.4,
+          "dewF": 64.9,
+          "windMph": 11.5,
+          "gustMph": 16,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T17:00:00Z",
+          "tempF": 83.2,
+          "dewF": 64.9,
+          "windMph": 11.9,
+          "gustMph": 17.3,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T18:00:00Z",
+          "tempF": 84.4,
+          "dewF": 64.9,
+          "windMph": 12.3,
+          "gustMph": 18.3,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T19:00:00Z",
+          "tempF": 85.2,
+          "dewF": 65,
+          "windMph": 12.8,
+          "gustMph": 19.4,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T20:00:00Z",
+          "tempF": 85.6,
+          "dewF": 65.2,
+          "windMph": 13.2,
+          "gustMph": 20.2,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T21:00:00Z",
+          "tempF": 85.5,
+          "dewF": 65.3,
+          "windMph": 13.4,
+          "gustMph": 20.6,
+          "windDirDeg": 160,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T22:00:00Z",
+          "tempF": 85.1,
+          "dewF": 65.2,
+          "windMph": 13.2,
+          "gustMph": 19.9,
+          "windDirDeg": 157,
+          "precipIn": 0
+        },
+        {
+          "time": "2026-07-30T23:00:00Z",
+          "tempF": 84.3,
+          "dewF": 65.1,
+          "windMph": 12.7,
+          "gustMph": 18.8,
+          "windDirDeg": 153,
+          "precipIn": 0
+        }
+      ]
+    }
+  ]
+}

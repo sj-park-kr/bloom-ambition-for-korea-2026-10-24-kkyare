@@ -19,6 +19,7 @@ export const DEFAULT_T0: Record<ReplayScenario, string> = {
   'gust-block': '2026-06-10T16:00:00Z',
   'calm-go': '2026-06-10T15:00:00Z',
   'forecast-miss': '2026-06-10T15:00:00Z',
+  'real-0729': '2026-07-29T16:00:00Z', // meta.json expected.defaultT0 (첫 위반 시각)
 }
 
 export interface ReplayFrame {

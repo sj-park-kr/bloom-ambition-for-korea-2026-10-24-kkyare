@@ -37,6 +37,7 @@ const SCENARIOS = [
   { id: 'forecast-miss', label: '예보가 빗나간 날' },
   { id: 'gust-block', label: '돌풍으로 살포가 막힌 날' },
   { id: 'calm-go', label: '바람이 잔잔한 날' },
+  { id: 'real-0729', label: '실데이터 · 2026년 7월 29일 디모인' },
 ] as const
 const DEFAULT_SCENARIO = 'forecast-miss'
 const STEP_MS = 600
@@ -580,6 +581,13 @@ export default function LivePage() {
         <p className="max-w-3xl text-sm text-[var(--ink-2)]">
           농약 살포 판단 과제 하나를 처음부터 채점까지 따라갑니다. 모델은 과제를 낸 시점의 예보만 보고 답하고, 이후 4시간 관측이 들어오면 자동으로 채점됩니다.
         </p>
+        {scenario.startsWith('real-') && (
+          <p className="max-w-3xl border-l-4 border-[var(--frost)] pl-3 text-sm">
+            실데이터입니다. 예보는 Open-Meteo가 그날 실제로 발행한 HRRR·NBM·GFS·ECMWF run이고, 채점은 IEM ASOS 디모인 공항(DSM) 실측으로 합니다.
+            이날 HRRR은 하루 종일 살포 가능이라고 예보했지만, 실제로는 오후 2시(19Z)와 4시(21Z)에 돌풍이 17~18 mph까지 올라 오전 11시(16Z)부터 시작하는 살포는 모두 조건 위반이었습니다.
+            답은 저장된 Claude 답이 없어 공개 예보 4개 합의 기준선을 씁니다.
+          </p>
+        )}
         <ReplayPanel key={scenario} scenario={scenario} />
       </div>
     </main>

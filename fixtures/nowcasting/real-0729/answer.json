@@ -1,0 +1,7 @@
+{
+  "demo": true,
+  "model": "public-forecast-consensus (saved)",
+  "probability": 0.3,
+  "decision": "delay",
+  "rationale": "공개 예보 4개 중 1개(ECMWF IFS)가 앞으로 4시간 살포 조건 위반을 예보했다. 위반 확률 p = 0.3일 때 미루는 비용 $7가 위반 손실 $31 × 0.3보다 작아 미룬다."
+}

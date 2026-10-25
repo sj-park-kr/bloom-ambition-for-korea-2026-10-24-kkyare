@@ -72,7 +72,9 @@ export function handleExport(body: ExportRequest, opts: { format?: string; holdo
   const data = taskData(body.tasks)
   let pack
   try {
-    pack = buildTaskPack(body.tasks, { snapshots: data.snapshots, resolutionFor: data.getObservation, holdout: opts.holdout })
+    // 모든 과제가 실데이터 시나리오(@real-*)일 때만 demo가 아니다
+    const real = body.tasks.every(t => t.snapshotId.split('@')[1]?.startsWith('real-'))
+    pack = buildTaskPack(body.tasks, { snapshots: data.snapshots, resolutionFor: data.getObservation, holdout: opts.holdout, demo: !real })
   } catch (e) {
     throw new BadRequest((e as Error).message)
   }

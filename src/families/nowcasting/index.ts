@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import type { Answer, Family, Field, ForecastRun, HourlyPoint, Observation, Score, Snapshot, Task } from '../../core/types'
 import { assertNoLeak, buildSnapshot } from '../../core/snapshot'
-import { SCENARIOS, loadFields, loadForecastRuns, loadObservation, type ScenarioId } from '../../core/weather'
+import { SCENARIOS, SCENARIO_DATE, loadFields, loadForecastRuns, loadObservation, type ScenarioId } from '../../core/weather'
 import { DEFAULT_RULES, evaluateWindow } from './rules'
 
 const COST_USD_PER_ACRE = 7
@@ -92,7 +92,8 @@ export const nowcasting: Family = {
 // Scenario is encoded as the suffix of snapshotId: `<buildSnapshot id>@<scenario>`.
 // This keeps tasks self-describing so the score route can rebuild snapshot + observation statelessly.
 
-export const DEMO_T0S: string[] = Array.from({ length: 11 }, (_, i) => `2026-06-10T${String(12 + i).padStart(2, '0')}:00:00.000Z`)
+/** Hourly decision times 12Z..22Z (07..17 CDT) on a scenario day. */
+export const t0sOn = (date: string): string[] => Array.from({ length: 11 }, (_, i) => `${date}T${String(12 + i).padStart(2, '0')}:00:00.000Z`)
 
 export function scenarioOfSnapshotId(snapshotId: string): ScenarioId {
   const s = snapshotId.split('@')[1]
@@ -105,14 +106,18 @@ export function buildScenarioSnapshot(field: Field, t0: string, scenario: Scenar
   return { ...snap, id: `${snap.id}@${scenario}` }
 }
 
-/** Deterministic order: t0 (hourly) -> scenario -> field. */
+/**
+ * Deterministic order: day -> t0 (hourly) -> scenario -> field.
+ * Days follow SCENARIOS order, so the 2026-06-10 mock tasks keep ids task-nc-0001.. that fixtures/arena/runs.json was recorded with.
+ */
 export function buildDemoTasks(count = 30): { tasks: Task[]; snapshots: Snapshot[] } {
   const fields = loadFields()
   const data = SCENARIOS.map((s) => ({ s, runs: loadForecastRuns(s), obs: loadObservation(s) }))
   const snapshots: Snapshot[] = []
-  for (const t0 of DEMO_T0S)
-    for (const { s, runs, obs } of data)
-      for (const field of fields) snapshots.push(buildScenarioSnapshot(field, t0, s, runs, obs))
+  for (const date of new Set(SCENARIOS.map((s) => SCENARIO_DATE[s])))
+    for (const t0 of t0sOn(date))
+      for (const { s, runs, obs } of data.filter((d) => SCENARIO_DATE[d.s] === date))
+        for (const field of fields) snapshots.push(buildScenarioSnapshot(field, t0, s, runs, obs))
   const tasks = nowcasting.generate({ fields, snapshots, count })
   const used = new Set(tasks.map((t) => t.snapshotId))
   return { tasks, snapshots: snapshots.filter((s) => used.has(s.id)) }
