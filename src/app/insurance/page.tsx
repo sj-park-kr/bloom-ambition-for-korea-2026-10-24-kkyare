@@ -141,6 +141,7 @@ export default function InsuranceConsole() {
           </tbody>
         </table>
       </Section>
+      <p className="text-xs text-[var(--ink-2)]">데이터 출처: 목업. 청구·손해율은 USDA RMA Cause of Loss 형식, 관측소 날씨는 Iowa Environmental Mesonet ASOS 형식을 따랐습니다.</p>
     </main>
   )
 }

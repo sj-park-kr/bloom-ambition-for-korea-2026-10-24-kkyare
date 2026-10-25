@@ -9,7 +9,7 @@ const barlow = Barlow_Condensed({ subsets: ['latin'], weight: ['500', '600', '70
 
 export const metadata: Metadata = {
   title: 'Weather Decision Gym',
-  description: '필지 단위 날씨로 작물보험 청구와 요율을 검증하고, 같은 계산으로 AI 모델의 날씨 판단을 채점합니다',
+  description: '실제 날씨로 자동 채점되는 농업 의사결정 데이터. 농장은 수확 기록을 내고 필지별 예측을 무료로 받고, 돈은 RL 평가·데이터 회사와 작물보험사가 냅니다',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -26,12 +26,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               ))}
             </nav>
-            <span className="ml-auto text-xs text-[var(--ink-2)]">데모용 가상 데이터</span>
+            <span className="ml-auto text-xs text-[var(--ink-2)]">대부분 데모용 가상 데이터 (실데이터는 화면에 표시)</span>
           </div>
         </header>
         {children}
         <footer className="mx-auto max-w-6xl border-t border-[var(--rule)] px-4 py-6 text-xs text-[var(--ink-2)]">
-          화면의 농장, 날씨, 청구 기록은 아이오와를 가정한 가상 데이터입니다. 비용과 가격은 설명을 위한 가정값입니다.
+          화면의 농장, 날씨, 청구 기록은 아이오와를 가정한 가상 데이터입니다. 실데이터(Open-Meteo 예보, IEM 관측)를 쓴 곳은 화면에 따로 표시했습니다. 비용과 가격은 설명을 위한 가정값입니다.
         </footer>
       </body>
     </html>

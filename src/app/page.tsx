@@ -89,12 +89,21 @@ export default function FarmMapPage() {
   return (
     <main className="mx-auto max-w-6xl space-y-10 px-4 py-8">
       <header className="space-y-2">
+        <p className="text-xs font-medium text-[var(--ink-2)]">
+          농장은 수확 기록을 내고 필지별 예측을 무료로 받습니다. 그 기록으로 만든 채점 과제와 요율 근거는 RL 평가·데이터 회사와 작물보험사가 삽니다.
+        </p>
         <h1 className="text-2xl font-semibold">농장 지도</h1>
         <p className="max-w-3xl text-[var(--ink-2)]">
           {lowest
             ? `아이오와 필지 ${fields.length}곳의 올해 생산량을 예측했습니다. 가장 낮은 곳은 ${lowest.name}으로 평년의 ${lowest.yieldPct}%입니다.`
             : '필지마다 날씨를 다시 계산해 올해 생산량을 예측합니다.'}
         </p>
+        {brief && brief.learning.length > 0 && (
+          <p className="max-w-3xl font-semibold">
+            지역 단위 예보는 매년 같은 정확도에 머뭅니다. 우리는 시즌마다 이 필지의 실제 수확 기록으로 다시 학습해, 생산량 예측 오차가
+            ±{brief.learning[0].baselineMaePct}%p에서 ±{brief.learning[brief.learning.length - 1].maePct}%p로 줄었습니다.
+          </p>
+        )}
       </header>
       {error && <p className="border-l-4 border-[var(--loam)] pl-3 text-sm">{error}</p>}
 
@@ -222,6 +231,47 @@ function FarmPanel({ b, loading }: { b: Brief; loading: boolean }) {
         <p className="leading-relaxed">{b.briefing.text}</p>
         {b.briefing.by === 'claude' && <div className="mt-2"><Badge tone="frost">Claude</Badge></div>}
       </Section>
+
+      <LiveForecast lat={b.field.lat} lon={b.field.lon} />
+
+      <p className="text-xs text-[var(--ink-2)]">
+        데이터 출처: 앞으로 7일 예보는 Open-Meteo 실데이터. 생산량·위험점수·청구·수확 기록은 목업이며 형식은 USDA RMA, NOAA CPC, Iowa Environmental Mesonet ASOS 공개 자료를 따랐습니다. 실서비스에서는 고객 농장의 수확 기록이 더해집니다.
+      </p>
     </div>
+  )
+}
+
+interface Daily { time: string[]; temperature_2m_min: number[]; precipitation_sum: number[] }
+
+// 브라우저에서 Open-Meteo를 바로 부른다 (키 불필요). 실패하면 블록을 숨기고 목업 숫자로 대신하지 않는다
+function LiveForecast({ lat, lon }: { lat: number; lon: number }) {
+  const [daily, setDaily] = useState<Daily | null>(null)
+  useEffect(() => {
+    setDaily(null)
+    const ctrl = new AbortController()
+    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_min,precipitation_sum&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=America%2FChicago&forecast_days=7`, { signal: ctrl.signal })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((d: { daily?: Daily }) => setDaily(d.daily ?? null))
+      .catch(() => setDaily(null))
+    return () => ctrl.abort()
+  }, [lat, lon])
+  if (!daily) return null
+  return (
+    <Section title="오늘부터 7일 실제 예보" note="Open-Meteo 실시간. 위 생산량·서리 예측은 데모 시점(2026년 5~6월) 기준">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="text-xs text-[var(--ink-2)]"><th className="text-left font-normal">날짜</th><th className="text-right font-normal">최저기온</th><th className="text-right font-normal">강수</th></tr>
+        </thead>
+        <tbody>
+          {daily.time.map((t, i) => (
+            <tr key={t} className="border-b border-[var(--rule)]">
+              <td className="py-1">{Number(t.slice(5, 7))}월 {Number(t.slice(8, 10))}일</td>
+              <td className="tnum py-1 text-right" style={daily.temperature_2m_min[i] <= 32 ? { color: 'var(--frost)' } : undefined}>{Math.round(daily.temperature_2m_min[i])}°F</td>
+              <td className="tnum py-1 text-right">{daily.precipitation_sum[i].toFixed(2)} in</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Section>
   )
 }
